@@ -1,0 +1,214 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: white;
+}
+
+/* Navbar */
+nav {
+    background: #1e1e1e;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 8px 18px;
+    background: #2a2a2a;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #3b82f6;
+}
+
+/* Container Center */
+.container-center {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 380px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+/* Button */
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2563eb;
+    transform: scale(1.05);
+}
+
+/* Recipe Page */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.recipe {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(8px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: #f59e0b;
+}
+
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.recipe img {
+    width: 100%;
+    max-width: 500px;   /* จำกัดขนาดสูงสุด */
+    display: block;
+    margin: 0 auto 20px auto;  /* จัดกลาง */
+    border-radius: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-table {
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #ffffff;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.product-table th {
+    background-color: #2f3640;
+    color: rgb(255, 255, 255);
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #222222;
+}
+
+.product-table img {
+    width: 140px;
+    border-radius: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* ===== หน้า Music ===== */
+
+body {
+    background: linear-gradient(to bottom, #000000, #111827);
+    color: white;
+}
+
+/* จัดหัวข้อ */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+}
+
+/* กล่องเนื้อเพลง */
+.lyrics {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    line-height: 1.8;
+    font-size: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* เว้นวรรคแต่ละท่อน */
+.lyrics p {
+    margin-bottom: 25px;
+}
+
+/* ทำให้ดูนุ่มขึ้น */
+.song-title {
+    font-size: 24px;
+    color: #facc15;
+}
+
+.artist {
+    color: #9ca3af;
+    margin-bottom: 20px;
+}
