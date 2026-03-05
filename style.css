@@ -324,3 +324,15 @@ p {
     color: #9ca3af;
     margin-bottom: 20px;
 }
+
+.music-video{
+display:flex;
+justify-content:center;
+margin:30px;
+}
+
+.music-video iframe{
+width:800px;
+height:450px;
+border-radius:12px;
+}
